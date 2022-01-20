@@ -1,3 +1,9 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
 #banner {
     width:90%;
     display:flex;
@@ -31,4 +37,34 @@
 
 #right-wrong {
     border-top: 3px solid black;
+}
+
+/*hi-score styles start*/
+#title {
+    text-align:center;
+}
+
+#score-display {
+    display:flex;
+    margin:auto;
+    width:50%;
+    flex-direction:column;
+    border: 5px solid black;
+    height: 500px;
+    overflow:auto;
+}
+
+#scoreboard {
+    width:85%;
+    text-align:center;
+    border: 3px solid blue;
+    align-self: center;
+    height:300px;
+    overflow:auto;
+}
+
+#score-display button {
+    display:flex;
+    width:80px;
+    margin-bottom:35px;
 }
