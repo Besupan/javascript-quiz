@@ -14,3 +14,40 @@ WHEN all questions are answered or the timer reaches 0
 THEN the game is over
 WHEN the game is over
 THEN I can save my initials and score*/
+what = function() {
+    const questions = {
+    q1:{
+        q:'Somedumbshit', 
+        answer:{
+             a:'thas',
+             b:'thos',
+             c:'thus',
+             d:'this',
+    },
+    },
+    q2:{
+        q:'moreshit',
+        answer:{
+            a:'thas',
+            b:'thos',
+            c:'thus',
+            d:'this',
+       },
+    }, 
+    q3:{
+        q: 'yougetitbynow',
+        answer:{
+            a:'thas',
+            b:'thos',
+            c:'thus',
+            d:'this',
+       },
+    },
+};
+for (const [key, value] of Object.entries(questions.q1.answer)) {
+    console.log(`${key}:${value}`);
+};
+};
+
+what();
+
